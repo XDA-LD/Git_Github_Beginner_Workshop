@@ -1,6 +1,6 @@
 # 🧪 The Git Training Gauntlet
 
-Welcome to the **LAU Byblos SWE Club** Git simulation!
+Welcome to the **LAU Byblos SWE Club** Git training workshop!
 
 **⚠️ The Golden Rules:**
 
@@ -36,21 +36,18 @@ Welcome to the **LAU Byblos SWE Club** Git simulation!
 
 #### **Step 4: Open Your Terminal**
 
-*We need to talk to your computer using text commands.*
+1. *We need to talk to your computer using text commands.*
 * **Windows Users:** Click your Start menu, search for **"Git Bash"**, and open it.
 * **Mac Users:** Press `Cmd + Space`, search for **"Terminal"**, and open it.
 
-#### **Step 5: Configure Your "Signature"**
-
-*Git needs to know who is making changes. This is like a name tag. It is NOT logging into your account.*
-1. In your terminal, type the following commands. 
-2. **Important:** Replace `"Your Name"` and `"your.email@example.com"` with your *actual* information. **Keep the quotation marks!**
+2. In your terminal, type the following commands:
    ```bash
-   git config --global user.name "John Doe"
-   git config --global user.email "john.doe@lau.edu"
+   git config --global user.name "<your-username>"
+   git config --global user.email "<your-email>"
    ```
+3. **Important:** Replace `<your-username>` and `<your-email>` with your *actual* information. **Keep the quotation marks!**
 
-#### **Step 6: "Clone" YOUR Fork (Download to your laptop)**
+#### **Step 5: "Clone" YOUR Fork**
 
 *Now that you have a copy on the GitHub website, we need to download it to your laptop so you can actually edit the files.*
 1. On your personal GitHub fork page, click the green **"<> Code"** button.
@@ -61,7 +58,7 @@ Welcome to the **LAU Byblos SWE Club** Git simulation!
    ```
 4. Press Enter. You will see text scrolling as it downloads the files. *(Note: Because it is public, it will download instantly without asking for a password).*
 
-#### **Step 7: Enter the Lab Folder**
+#### **Step 6: Enter the Lab Folder**
 
 *Your terminal is currently looking at your computer's main folder. You need to tell it to "open" the new folder you just downloaded. We do this using `cd` (Change Directory).*
 1. Type the following command and press Enter:
