@@ -13,24 +13,24 @@ Welcome to the **LAU Byblos SWE Club** Git simulation!
 ### 🟢 PHASE 1: The Setup
 **Task 0: Prerequisites, Forking & Cloning**
 
-*Before we write any code, we need to set up your account, install the required tools, and get your own copy of the lab.*
+#### *Before we write any code, we need to set up your account, install the required tools, and get your own copy of the lab.*
 
 **Step 1: Create a GitHub Account**
 
-- *GitHub is the cloud where we will store and share our code.*
+#### *GitHub is the cloud where we will store and share our code.*
 1. Go to [github.com](https://github.com) and click **Sign Up** in the top right.
 2. Follow the prompts to create a free account. (Tip: Use a professional username, as employers will look at this later!)
 
 **Step 2: Install Git on Your Computer**
 
-- *Git is the engine that runs on your computer to track code changes.*
+#### *Git is the engine that runs on your computer to track code changes.*
 1. Go to [git-scm.com/downloads](https://git-scm.com/downloads).
 2. Download the version for your operating system (Windows or Mac).
 3. Run the installer and just keep clicking "Next" to accept all the default settings.
 
 **Step 3: "Fork" the Repository (Make your own cloud copy)**
 
-- *You cannot edit the SWE Club's master project directly. Forking creates a 100% identical copy under your own GitHub profile where you have full control.*
+#### *You cannot edit the SWE Club's master project directly. Forking creates a 100% identical copy under your own GitHub profile where you have full control.*
 1. Go to the GitHub link provided by Rami or the SWE Club.
 2. Look at the top-right corner of the page and click the button that says **"Fork"**.
 3. Leave the settings as they are and click **"Create fork"**.
@@ -38,13 +38,13 @@ Welcome to the **LAU Byblos SWE Club** Git simulation!
 
 **Step 4: Open Your Terminal**
 
-- *We need to talk to your computer using text commands.*
+#### *We need to talk to your computer using text commands.*
 * **Windows Users:** Click your Start menu, search for **"Git Bash"**, and open it.
 * **Mac Users:** Press `Cmd + Space`, search for **"Terminal"**, and open it.
 
 **Step 5: Configure Your "Signature"**
 
-- *Git needs to know who is making changes. This is like a name tag. It is NOT logging into your account.*
+#### *Git needs to know who is making changes. This is like a name tag. It is NOT logging into your account.*
 1. In your terminal, type the following commands. 
 2. **Important:** Replace `"Your Name"` and `"your.email@example.com"` with your *actual* information. **Keep the quotation marks!**
    ```bash
@@ -54,7 +54,7 @@ Welcome to the **LAU Byblos SWE Club** Git simulation!
 
 **Step 6: "Clone" YOUR Fork (Download to your laptop)**
 
-- *Now that you have a copy on the GitHub website, we need to download it to your laptop so you can actually edit the files.*
+#### *Now that you have a copy on the GitHub website, we need to download it to your laptop so you can actually edit the files.*
 1. On your personal GitHub fork page, click the green **"<> Code"** button.
 2. Make sure the "HTTPS" tab is selected, and click the small copy icon to copy the web address.
 3. Go back to your terminal and type `git clone` followed by a space, then paste that link. It will look like this:
@@ -65,7 +65,7 @@ Welcome to the **LAU Byblos SWE Club** Git simulation!
 
 **Step 7: Enter the Lab Folder**
 
-- *Your terminal is currently looking at your computer's main folder. You need to tell it to "open" the new folder you just downloaded. We do this using `cd` (Change Directory).*
+#### *Your terminal is currently looking at your computer's main folder. You need to tell it to "open" the new folder you just downloaded. We do this using `cd` (Change Directory).*
 1. Type the following command and press Enter:
    ```bash
    cd Git_Github_Beginner_Workshop
