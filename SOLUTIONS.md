@@ -1,14 +1,5 @@
 # 🗝️ Solutions Guide
 
-### 🟢 Task 0: Setup
-
-```bash
-git config --global user.name "Name"
-git config --global user.email "email@lau.edu"
-git clone <url>
-cd git-training-lab
-```
-
 ### 🌿 Task 1 & 2: Branching & Amending
 
 ```bash
