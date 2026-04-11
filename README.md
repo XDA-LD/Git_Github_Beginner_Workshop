@@ -24,4 +24,4 @@ The repository starts with a minimal footprint to keep focus on the `.git` direc
 4. **The Cleanup:** Amending history and rebasing for a clean timeline.
 
 ### START Working!
-**Go to TASKS.md and start your training!**
+**Go to `TASKS.md` and start your training!**
