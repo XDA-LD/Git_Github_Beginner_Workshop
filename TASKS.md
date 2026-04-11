@@ -1,31 +1,71 @@
 # 🧪 The Git Training Gauntlet
 
-Welcome to the **LAU Byblos SE Club** Git simulation!
+Welcome to the **LAU Byblos SWE Club** Git training workshop!
 
 **⚠️ The Golden Rules:**
 
 1. **Do not skip steps.** Each task builds on the last one.
 2. **Read your terminal.** Git is very talkative; it usually tells you how to fix errors.
-3. **Try before you peek.** If you get stuck, check `SOLUTIONS.md`.
+3. **Try before you peek.** If you get stuck, ask the lab assistant. (if you are not in the workshop session, check `SOLUTIONS.md`)
 
 ---
 
 ### 🟢 PHASE 1: The Setup
+*Before we write any code, we need to set up your account, install the required tools, and get your own copy of the lab.*
 
-**Task 0: Identity & Cloning**
+#### **Step 1: Create a GitHub Account**
 
-1. **Sign up:** Create an account at [github.com](https://github.com).
-2. **Install:** Ensure Git is installed ([git-scm.com](https://git-scm.com)).
-3. **Configure:** Tell Git who you are:
+*GitHub is the cloud where we will store and share our code.*
+1. Go to [github.com](https://github.com) and click **Sign Up** in the top right.
+2. Follow the prompts to create a free account. (Tip: Use a professional username, as employers will look at this later!)
+
+#### **Step 2: Install Git on Your Computer**
+
+*Git is the engine that runs on your computer to track code changes.*
+1. Go to [git-scm.com/downloads](https://git-scm.com/downloads).
+2. Download the version for your operating system (Windows or Mac).
+3. Run the installer and just keep clicking "Next" to accept all the default settings.
+
+#### **Step 3: "Fork" the Repository (Make your own cloud copy)**
+
+*You cannot edit the SWE Club's master project directly. Forking creates a 100% identical copy under your own GitHub profile where you have full control.*
+1. Go to the GitHub link provided by Rami or the SWE Club.
+2. Look at the top-right corner of the page and click the button that says **"Fork"**.
+3. Leave the settings as they are and click **"Create fork"**.
+4. **⚠️ CRITICAL CHECK:** Look at your web browser's address bar. Make sure you are now on `github.com/YOUR_USERNAME/Git_Github_Beginner_Workshop`. If you still see the SE Club's name, you are in the wrong place!
+
+#### **Step 4: Open Your Terminal**
+
+1. *We need to talk to your computer using text commands.*
+* **Windows Users:** Click your Start menu, search for **"Git Bash"**, and open it.
+* **Mac Users:** Press `Cmd + Space`, search for **"Terminal"**, and open it.
+
+2. In your terminal, type the following commands:
    ```bash
-   git config --global user.name "Your Name"
-   git config --global user.email "your.email@example.com"
+   git config --global user.name "<your-username>"
+   git config --global user.email "<your-email>"
    ```
-4. **Clone:** Download this lab to your machine:
+3. **Important:** Replace `<your-username>` and `<your-email>` with your *actual* information. **Keep the quotation marks!**
+
+#### **Step 5: "Clone" YOUR Fork**
+
+*Now that you have a copy on the GitHub website, we need to download it to your laptop so you can actually edit the files.*
+1. On your personal GitHub fork page, click the green **"<> Code"** button.
+2. Make sure the "HTTPS" tab is selected, and click the small copy icon to copy the web address.
+3. Go back to your terminal and type `git clone` followed by a space, then paste that link. It will look like this:
    ```bash
-   git clone <your-repository-url>
-   cd git-training-lab
+   git clone https://github.com/YOUR_USERNAME/Git_Github_Beginner_Workshop.git
    ```
+4. Press Enter. You will see text scrolling as it downloads the files. *(Note: Because it is public, it will download instantly without asking for a password).*
+
+#### **Step 6: Enter the Lab Folder**
+
+*Your terminal is currently looking at your computer's main folder. You need to tell it to "open" the new folder you just downloaded. We do this using `cd` (Change Directory).*
+1. Type the following command and press Enter:
+   ```bash
+   cd Git_Github_Beginner_Workshop
+   ```
+2. You are now inside the lab! You are ready to start coding.
 
 ---
 
