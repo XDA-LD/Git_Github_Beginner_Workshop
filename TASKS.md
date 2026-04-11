@@ -27,8 +27,8 @@ Welcome to the **LAU Byblos SWE Club** Git simulation!
 3. Run the installer and just keep clicking "Next" to accept all the default settings.
 
 **Step 3: "Fork" the Repository (Make your own cloud copy)**
-*Why? You cannot edit the SE Club's master project directly. Forking creates a 100% identical copy under your own GitHub profile where you have full control.*
-1. Go to the GitHub link provided by Rami or the SE Club.
+*Why? You cannot edit the SWE Club's master project directly. Forking creates a 100% identical copy under your own GitHub profile where you have full control.*
+1. Go to the GitHub link provided by Rami or the SWE Club.
 2. Look at the top-right corner of the page and click the button that says **"Fork"**.
 3. Leave the settings as they are and click **"Create fork"**.
 4. **⚠️ CRITICAL CHECK:** Look at your web browser's address bar. Make sure you are now on `github.com/YOUR_USERNAME/Git_Github_Beginner_Workshop`. If you still see the SE Club's name, you are in the wrong place!
